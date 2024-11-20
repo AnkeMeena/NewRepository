@@ -46,7 +46,7 @@
   </dependencies>
   <profiles>
    <profile>
-      <id>Batch</id>
+      <id>Regresion</id>
   <build>
   <plugins>
       <plugin>
@@ -55,8 +55,8 @@
         <version>3.5.2</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testng_BatchExecution.xml</suiteXmlFile>
-             <suiteXmlFile>testng_GroupSmokeExecution.xml</suiteXmlFile> 
+               <suiteXmlFile>testng_RegresionExecution.xml</suiteXmlFile> 
+            // <suiteXmlFile>testng_GroupSmokeExecution.xml</suiteXmlFile> 
           </suiteXmlFiles>
         </configuration>
       </plugin>

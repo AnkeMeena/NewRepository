@@ -27,5 +27,6 @@ public class LE_004 extends BaseClass{
 		 String state=ex.getDataFromExcel("Leads", 10, 9);
 		 cn.CreateNewLead(lastName, lastName, Company, street, pobox, postal, city, country, state);
 		 System.out.println("testecase le004 is executed");
+		 System.out.println("Hello");
 	}
 }
